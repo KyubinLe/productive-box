@@ -3,7 +3,7 @@ on:
   repository_dispatch:
     types: [build-event]
   schedule:
-    - cron: "01 34 * * *"
+    - cron: "00 42 * * *"
 jobs:
   update-gist:
     runs-on: ubuntu-latest
